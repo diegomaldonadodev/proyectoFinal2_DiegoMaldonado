@@ -1,0 +1,11 @@
+.IconCartContainer {
+  width: 50px;
+  display: grid;
+  justify-items: end;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+
+.SpanCarrito {
+  font-size: 18px;
+  font-weight: 600;
+}

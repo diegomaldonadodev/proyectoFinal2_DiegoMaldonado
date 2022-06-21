@@ -1,0 +1,234 @@
+.Carrito {
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  justify-content: center;
+}
+
+.CarritoContainer {
+  width: 100%;
+  display: grid;
+  min-height: 30vh;
+}
+
+.CarritoContainer ul {
+  display: grid;
+  grid-gap: 25px;
+  max-width: 430px;
+  margin: auto;
+}
+
+.ListaCarrito {
+  display: grid;
+  grid-auto-flow: column;
+  background-color: white;
+  padding: 15px;
+  font-weight: 600;
+  grid-template-columns: 4fr 1fr 0.2fr;
+  gap: 25px;
+  border-radius: 15px;
+}
+
+.ListaCarrito li {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 15px;
+}
+
+.ListaCarrito img {
+  width: 100%;
+}
+
+.ListaInfo {
+  display: grid;
+  gap: 25px;
+}
+
+.PrecioCantidad {
+  display: flex;
+  justify-content: space-between;
+}
+
+.SubTotal {
+  display: grid;
+  align-items: flex-end;
+}
+
+.PrecioCantidad {
+  display: grid;
+  grid-auto-flow: column;
+  padding: 0;
+}
+
+.botonVolver {
+  width: 50%;
+  margin: auto;
+  border-radius: 20px;
+  font-size: 18px;
+  margin-top: 25px;
+}
+
+ul div i {
+  font-size: 25px;
+  color: rgb(252, 63, 63);
+  justify-self: end;
+  cursor: pointer;
+}
+
+.botonEliminarCarrito {
+  width: 50%;
+  justify-self: center;
+  border-radius: 15px;
+  font-size: 18px;
+  margin-top: 50px;
+}
+
+.TotalDiv {
+  display: grid;
+  align-content: flex-start;
+  padding: 25px;
+  background-color: white;
+  height: 470px;
+  border-radius: 25px;
+  margin-top: 50px;
+}
+
+.TotalDiv h1 {
+  justify-self: center;
+  font-size: 35px;
+}
+
+.TotalDiv form {
+  display: grid;
+  grid-gap: 15px;
+  margin-top: 55px;
+}
+
+@media (min-width: 1200px) {
+  .Carrito {
+    background-color: transparent;
+    width: 100%;
+    display: grid;
+    padding: 50px 0;
+    min-height: 100vh;
+    grid-template-columns: 2fr 1fr;
+    max-width: 1200px;
+    margin: auto;
+    grid-gap: 50px;
+  }
+
+  .CarritoContainer {
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    align-content: flex-start;
+  }
+
+  .CarritoContainer ul {
+    background-color: transparent;
+    display: grid;
+    grid-gap: 15px;
+    align-items: flex-start;
+    max-width: 900px;
+  }
+
+  ul div {
+    background-color: white;
+    padding: 25px;
+    border-radius: 25px;
+    max-height: 250px;
+  }
+
+  ul div i {
+    font-size: 25px;
+    color: rgb(252, 63, 63);
+    justify-self: end;
+    cursor: pointer;
+  }
+
+  .Carrito h3 {
+    color: rgb(20, 20, 20);
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .botonVolver,
+  .botonEliminarCarrito {
+    margin-top: 15px;
+    width: 100%;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 5px;
+    display: grid;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: rgb(21, 99, 255);
+    border: none;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    color: white;
+    margin-top: 50px;
+  }
+
+  .ListaCarrito {
+    color: rgb(20, 20, 20);
+    display: grid;
+    grid-auto-flow: column;
+    align-content: center;
+    grid-template-columns: 4fr 1fr 0.2fr;
+    justify-items: center;
+  }
+
+  .ListaCarrito li {
+    color: rgb(20, 20, 20);
+    display: grid;
+    grid-auto-flow: column;
+  }
+
+  .ListaCarrito img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .PrecioCantidad {
+    display: grid;
+    grid-auto-flow: column;
+    padding: 0;
+    align-content: flex-end;
+  }
+
+  h1,
+  .SubTotal {
+    color: rgb(20, 20, 20);
+    font-weight: 600;
+    align-self: flex-end;
+    font-size: 20px;
+  }
+
+  .ListaInfo {
+    font-weight: 600;
+    font-size: 20px;
+    display: grid;
+  }
+
+  .TotalDiv {
+    display: grid;
+    align-content: flex-start;
+    padding: 25px;
+    background-color: white;
+    height: 470px;
+    border-radius: 25px;
+    margin-top: 0;
+  }
+
+  .TotalDiv h1 {
+    justify-self: center;
+    font-size: 35px;
+  }
+
+  .TotalDiv form {
+    display: grid;
+    grid-gap: 15px;
+    margin-top: 55px;
+  }
+}

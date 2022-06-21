@@ -1,0 +1,9 @@
+.LogoContainer {
+  justify-self: center;
+  margin-bottom: 50px;
+}
+
+.LogoContainer img {
+  width: 250px;
+  height: auto;
+}

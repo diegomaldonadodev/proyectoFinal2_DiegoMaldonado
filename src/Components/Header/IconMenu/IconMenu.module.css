@@ -1,0 +1,15 @@
+.IconMenuContainer {
+  display: block;
+  text-align: center;
+  width: 50px;
+  background-color: white;
+  overflow: hidden;
+  box-shadow: 20px 20px 60px #bebebe, 10px 10px 40px #d8d8d8;
+  border-radius: 8px;
+}
+
+@media (min-width: 1200px) {
+  .IconMenuContainer {
+    display: none;
+  }
+}

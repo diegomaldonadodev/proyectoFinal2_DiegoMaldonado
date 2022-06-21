@@ -1,0 +1,61 @@
+.Item {
+  max-width: 300px;
+  height: 470px;
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  display: grid;
+  align-content: space-between;
+  justify-content: center;
+}
+
+.ItemContainer {
+  padding: 20px;
+  min-height: 147px;
+  padding-top: 0;
+  display: grid;
+}
+
+.ItemContainer h3 {
+  font-weight: 600;
+  font-size: 15px;
+  color: rgb(20, 20, 20);
+  text-transform: uppercase;
+}
+
+.BotonItem {
+  background-color: transparent;
+  border-color: transparent;
+  font-size: 30px;
+  color: rgb(0, 119, 255);
+  display: flex;
+  justify-content: end;
+}
+
+.Item p {
+  margin-top: 15px;
+  color: rgb(20, 20, 20);
+  font-weight: 700;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: flex-end;
+}
+
+.Item span {
+  color: rgb(110, 110, 110);
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.Item img {
+  padding: 25px;
+  background-color: white;
+  width: 100%;
+  
+}
+
+@media (min-width: 1200px) {
+}

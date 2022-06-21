@@ -1,0 +1,9 @@
+.ItemDetailContainer {
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  padding: 50px 0;
+  min-height: 100vh;
+}
+

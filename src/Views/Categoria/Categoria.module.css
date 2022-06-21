@@ -1,0 +1,21 @@
+.ItemListContainer {
+  background: transparent;
+  display: grid;
+  justify-items: center;
+}
+
+.ContainerItemList {
+  width: 100%;
+  max-width: 1200px;
+}
+.ItemList {
+  padding: 35px 0;
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  grid-gap: 60px 25px;
+  color: white;
+  min-height: 100vh;
+}
